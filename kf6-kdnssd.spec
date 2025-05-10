@@ -3,18 +3,18 @@
 %bcond_with	tests		# build with tests
 # TODO:
 # - runtime Requires if any
-%define		kdeframever	6.13
+%define		kdeframever	6.14
 %define		qtver		5.15.2
 %define		kfname		kdnssd
 
 Summary:	Network service discovery using Zeroconf
 Name:		kf6-%{kfname}
-Version:	6.13.0
+Version:	6.14.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	0276c48fe10629c5f97efc46444a2201
+# Source0-md5:	76b0993c28f3f2e9423a459e8ec080b7
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
