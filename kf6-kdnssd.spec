@@ -44,6 +44,13 @@ Protocol (DNS-SD), the layer of [Zeroconf](http://www.zeroconf.org)
 that allows network services, such as printers, to be discovered
 without any user intervention or centralized infrastructure.
 
+%description -l pl.UTF-8
+KDNSSD jest biblioteką do obsługi bazującego na DNS-ie Service
+Discovery Protocol (DNS-SD), warstwy
+[Zeroconf](http://www.zeroconf.org), która pozwala by usługi sieciowe,
+jak drukarki były odkrywane bez jakiejkolwiek interwencji użytkownika
+czy scentralizowanej infrastruktury.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
